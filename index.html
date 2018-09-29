@@ -9,304 +9,465 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>Studio - Creative Photography Template | Home</title>
+    <title>Sonar - Photography Template</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
 
-    <!-- Core Style CSS -->
-    <link rel="stylesheet" href="css/core-style.css">
+    <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <!-- Preloader -->
+    <!-- Preloader Start -->
     <div id="preloader">
-        <div class="showbox">
-            <div class="loader">
-                <svg class="circular" viewBox="25 25 50 50">
-                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-                </svg>
-            </div>
-        </div>
-        <div class="questions-area text-center">
-            <p>Did you know?</p>
-            <ul>
-                <li>The largest photography competition is 353,768 entries.</li>
-                <li>Photography is the toughest profession in the world.</li>
-                <li>The world’s largest photo album by dimensions was 13 ft 11.5 in x 17 ft.</li>
-                <li>The world’s largest photo mosaic featured 176,175 pictures.</li>
-                <li>The world’s largest camera lens was a 5200mm lens attached to a canon.</li>
-            </ul>
+        <div class="preload-content">
+            <div id="sonar-load"></div>
         </div>
     </div>
+    <!-- Preloader End -->
 
-    <!-- Gradient Background Overlay -->
-    <div class="gradient-background-overlay"></div>
+    <!-- Grids -->
+    <div class="grids d-flex justify-content-between">
+        <div class="grid1"></div>
+        <div class="grid2"></div>
+        <div class="grid3"></div>
+        <div class="grid4"></div>
+        <div class="grid5"></div>
+        <div class="grid6"></div>
+        <div class="grid7"></div>
+        <div class="grid8"></div>
+        <div class="grid9"></div>
+    </div>
 
-    <!-- Header Area Start -->
+    <!-- ***** Main Menu Area Start ***** -->
+    <div class="mainMenu d-flex align-items-center justify-content-between">
+        <!-- Close Icon -->
+        <div class="closeIcon">
+            <i class="ti-close" aria-hidden="true"></i>
+        </div>
+        <!-- Logo Area -->
+        <div class="logo-area">
+            <a href="index.html">Sonar</a>
+        </div>
+        <!-- Nav -->
+        <div class="sonarNav wow fadeInUp" data-wow-delay="1s">
+            <nav>
+                <ul>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-me.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="elements.html">Elements</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Copwrite Text -->
+        <div class="copywrite-text">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+    <!-- ***** Main Menu Area End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
     <header class="header-area">
-        <div class="container-fluid h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 h-100">
-                    <div class="main-menu h-100">
-                        <nav class="navbar h-100 navbar-expand-lg">
-                            <!-- Logo Area  -->
-                            <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt="Logo"></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="menu-area d-flex justify-content-between">
+                        <!-- Logo Area  -->
+                        <div class="logo-area">
+                            <a href="index.html">Sonar</a>
+                        </div>
 
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#studioMenu" aria-controls="studioMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
-
-                            <div class="collapse navbar-collapse" id="studioMenu">
-                                <!-- Menu Area Start  -->
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="index.html">Home</a>
-                                            <a class="dropdown-item" href="about-me.html">About</a>
-                                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                                            <a class="dropdown-item" href="blog.html">Blog</a>
-                                            <a class="dropdown-item" href="contact.html">Contact</a>
-                                            <a class="dropdown-item" href="elements.html">Elements</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about-me.html">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">contact</a>
-                                    </li>
-                                </ul>
-                                <!-- Search Form -->
-                                <div class="header-search-form ml-auto">
-                                    <form action="#">
-                                        <input type="search" class="form-control" placeholder="Input your keyword then press enter..." id="search" name="search">
-                                        <input class="d-none" type="submit" value="submit">
-                                    </form>
-                                </div>
-                                <!-- Search btn -->
-                                <div id="searchbtn">
-                                    <img src="img/core-img/search.png" alt="">
-                                </div>
+                        <div class="menu-content-area d-flex align-items-center">
+                            <!-- Header Social Area -->
+                            <div class="header-social-area d-flex align-items-center">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </div>
-                        </nav>
+                            <!-- Menu Icon -->
+                            <span class="navbar-toggler-icon" id="menuIcon"></span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- Header Area End -->
+    <!-- ***** Header Area End ***** -->
 
-    <!-- Social Sidebar Area Start -->
-    <div class="social-sidebar-area bg-white">
-        <!-- Social Area -->
-        <div class="social-info-area">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i> <span>Facebook</span></a>
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i> <span>Twitter</span></a>
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i> <span>Pinterest</span></a>
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i> <span>Behance</span></a>
-        </div>
-        <!-- Message Box -->
-        <div class="message-box">
-            <a href="#" data-toggle="modal" data-target=".contact-modal-lg"><img src="img/core-img/envelope.png" alt=""></a>
-        </div>
-    </div>
-    <!-- Social Sidebar Area End -->
-    
-    <!-- ***** Welcome Area Start ***** -->
-    <section class="welcome-area">
-        <div class="carousel h-100 slide" data-ride="carousel" id="welcomeSlider">
-            <!-- Carousel Inner -->
-            <div class="carousel-inner h-100">
-
-                <div class="carousel-item h-100 bg-img active" style="background-image: url(img/bg-img/1.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>01.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/2.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>02.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/3.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>03.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/4.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>04.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/5.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>05.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/6.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>06.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/7.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>07.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/8.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>08.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/9.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>09.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/10.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>10.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/11.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>11.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/12.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>12.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/13.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>13.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Carousel Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#welcomeSlider" data-slide-to="0" class="active bg-img" style="background-image: url(img/bg-img/1.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="1" class="bg-img" style="background-image: url(img/bg-img/2.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="2" class="bg-img" style="background-image: url(img/bg-img/3.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="3" class="bg-img" style="background-image: url(img/bg-img/4.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="4" class="bg-img" style="background-image: url(img/bg-img/5.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="5" class="bg-img" style="background-image: url(img/bg-img/6.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="6" class="bg-img" style="background-image: url(img/bg-img/7.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="7" class="bg-img" style="background-image: url(img/bg-img/8.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="8" class="bg-img" style="background-image: url(img/bg-img/9.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="9" class="bg-img" style="background-image: url(img/bg-img/10.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="10" class="bg-img" style="background-image: url(img/bg-img/11.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="11" class="bg-img" style="background-image: url(img/bg-img/12.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="12" class="bg-img" style="background-image: url(img/bg-img/13.jpg);"></li>
-            </ol>
-        </div>
-    </section>
-    <!-- ***** Welcome Area End ***** -->
-
-    <!-- ***** Contact Area Start ***** -->
-    <div class="contact-popup-form" id="contact-modal-lg">
-        <div class="modal fade contact-modal-lg" tabindex="-1" role="dialog" aria-labelledby="contact-modal-lg" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="contact-heading-text text-center mb-30">
-                                    <span></span>
-                                    <h2>Please get in touch</h2>
-                                </div>
+    <!-- ***** Hero Area Start ***** -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>Sand Storm</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Contact Form Area -->
-                    <div class="contact-form-area">
-                        <div class="container-fluid">
-                            <form action="#" method="post">
-                                <div class="row">
-                                    <div class="col-12 col-md-4">
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
-                                    </div>
-                                    <div class="col-12 col-md-4">
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
-                                    </div>
-                                    <div class="col-12 col-md-4">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                                    </div>
-                                    <div class="col-12">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="col-12 text-center">
-                                        <button type="submit" class="btn studio-btn mt-3"><img src="img/core-img/logo-icon.png" alt=""> Send</button>
-                                    </div>
-                                </div>
-                            </form>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>New York View</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>The Desert</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide4.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>Mountains Hike</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>Sand Storm</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>New York View</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>The Desert</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide4.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>Mountains Hike</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>Sand Storm</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>New York View</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>The Desert</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide4.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <div class="line"></div>
+                                <h2>Mountains Hike</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Hero Area End ***** -->
+
+    <!-- ***** Portfolio Area Start ***** -->
+    <div class="portfolio-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="portfolio-title">
+                        <h2>“In photography there is a reality so subtle that it becomes more <span>real</span> than reality.”</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between">
+                <!-- Single Portfoio Area -->
+                <div class="col-12 col-md-5">
+                    <div class="single-portfolio-item mt-100 portfolio-item-1 wow fadeIn">
+                        <div class="backend-content">
+                            <img class="dots" src="img/core-img/dots.png" alt="">
+                            <h2>Reality</h2>
+                        </div>
+                        <div class="portfolio-thumb">
+                            <img src="img/bg-img/p1.png" alt="">
+                        </div>
+                        <div class="portfolio-meta">
+                            <p class="portfolio-date">Feb 02, 2018</p>
+                            <h2>Italy in the sunset</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Portfoio Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single-portfolio-item mt-230 portfolio-item-2 wow fadeIn">
+                        <div class="backend-content">
+                            <img class="dots" src="img/core-img/dots.png" alt="">
+                        </div>
+                        <div class="portfolio-thumb">
+                            <img src="img/bg-img/p2.png" alt="">
+                        </div>
+                        <div class="portfolio-meta">
+                            <p class="portfolio-date">Feb 02, 2018</p>
+                            <h2>Mountain Landscape</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Portfoio Area -->
+                <div class="col-12 col-md-10">
+                    <div class="single-portfolio-item mt-100 portfolio-item-3 wow fadeIn">
+                        <div class="backend-content">
+                            <img class="dots" src="img/core-img/dots.png" alt="">
+                            <h2>Photography</h2>
+                        </div>
+                        <div class="portfolio-thumb">
+                            <img src="img/bg-img/p3.png" alt="">
+                        </div>
+                        <div class="portfolio-meta">
+                            <p class="portfolio-date">Feb 02, 2018</p>
+                            <h2>Foggy sunset over the lake</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-end">
+                <!-- Single Portfoio Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single-portfolio-item portfolio-item-4 wow fadeIn">
+                        <div class="backend-content">
+                            <img class="dots" src="img/core-img/dots.png" alt="">
+                        </div>
+                        <div class="portfolio-thumb">
+                            <img src="img/bg-img/p2.png" alt="">
+                        </div>
+                        <div class="portfolio-meta">
+                            <p class="portfolio-date">Feb 02, 2018</p>
+                            <h2>Clouds on mountain top</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Portfoio Area -->
+                <div class="col-12 col-md-5">
+                    <div class="single-portfolio-item portfolio-item-5 wow fadeIn">
+                        <div class="backend-content">
+                            <img class="dots" src="img/core-img/dots.png" alt="">
+                            <h2>Hope</h2>
+                        </div>
+                        <div class="portfolio-thumb">
+                            <img src="img/bg-img/p5.png" alt="">
+                        </div>
+                        <div class="portfolio-meta">
+                            <p class="portfolio-date">Feb 02, 2018</p>
+                            <h2>Over the canion</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <!-- Single Portfoio Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-portfolio-item portfolio-item-6 wow fadeIn">
+                        <div class="portfolio-thumb">
+                            <img src="img/bg-img/p6.png" alt="">
+                        </div>
+                        <div class="portfolio-meta">
+                            <p class="portfolio-date">Feb 02, 2018</p>
+                            <h2>Mirror lake</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-end">
+                <!-- Single Portfoio Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-portfolio-item portfolio-item-7 wow fadeIn">
+                        <div class="backend-content">
+                            <img class="dots" src="img/core-img/dots.png" alt="">
+                            <h2>Future</h2>
+                        </div>
+                        <div class="portfolio-thumb">
+                            <img src="img/bg-img/p7.png" alt="">
+                        </div>
+                        <div class="portfolio-meta">
+                            <p class="portfolio-date">Feb 02, 2018</p>
+                            <h2>Mirror lake</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ***** Contact Area End ***** -->
+    <!-- ***** Portfolio Area End ***** -->
 
+    <!-- ***** Call to Action Area Start ***** -->
+    <div class="sonar-call-to-action-area section-padding-0-100">
+        <div class="backEnd-content">
+            <h2>Dream</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="call-to-action-content wow fadeInUp" data-wow-delay="0.5s">
+                        <h2>I am an experienced photographer</h2>
+                        <h5>Let’s talk</h5>
+                        <a href="#" class="btn sonar-btn mt-100">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Call to Action Area End ***** -->
 
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Copywrite Text -->
+                    <div class="copywrite-text">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
