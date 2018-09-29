@@ -27,9 +27,8 @@ geocoder_map.geocode({
         map.setCenter(results[0].geometry.location);
         var marker = new google.maps.Marker({
             map: map,
-            icon: '',
-            position: map.getCenter(),
-            animation: google.maps.Animation.BOUNCE,
+            icon: 'img/core-img/map.png',
+            position: map.getCenter()
         });
     } else {
         alert("Geocode was not successful for the following reason: " + status);
